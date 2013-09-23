@@ -5,17 +5,14 @@ use JSON::RPC::Dispatch;
 use Router::Simple::Declare;
 
 my $router = router {
-
     connect findByZipcode => {
         handler => 'FindByZipcodeAction',
         action  => 'call',
     };
-
     connect findByCity => {
         handler => 'FindByCityAction',
         action  => 'call',
     };
-
 };
 
 sub new {
@@ -34,7 +31,7 @@ sub handle_psgi {
     my $self = shift;
     my $env  = shift;
     $self->{dispatcher}->handle_psgi($env);
-};
+}
 
 1;
 __END__

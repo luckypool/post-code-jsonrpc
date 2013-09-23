@@ -1,5 +1,6 @@
 package Practice::JSONRPC::Handler::Base;
 use common::sense;
+
 use parent qw/Class::Accessor::Fast/;
 use String::CamelCase;
 use Practice::Model::PostalCode;
@@ -12,6 +13,7 @@ sub new {
         handler => 'Practice::DB::Handler::PostalCode',
         table   => 'postal_code',
     });
+
     return $class->SUPER::new({
         model => $model
     });
