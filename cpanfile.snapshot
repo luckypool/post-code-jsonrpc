@@ -1,13 +1,5 @@
 # carton snapshot format: version 1.0
 DISTRIBUTIONS
-  Algorithm-Diff-1.1902
-    pathname: T/TY/TYEMQ/Algorithm-Diff-1.1902.tar.gz
-    provides:
-      Algorithm::Diff 1.1902
-      Algorithm::Diff::_impl 1.1902
-      Algorithm::DiffOld 1.1
-    requirements:
-      ExtUtils::MakeMaker 0
   Any-Moose-0.21
     pathname: S/SA/SARTAK/Any-Moose-0.21.tar.gz
     provides:
@@ -114,6 +106,26 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.42
       Test::More 0.88
       perl 5.008001
+  Capture-Tiny-0.22
+    pathname: D/DA/DAGOLDEN/Capture-Tiny-0.22.tar.gz
+    provides:
+      Capture::Tiny 0.22
+    requirements:
+      Carp 0
+      Config 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.30
+      File::Find 0
+      File::Spec 0
+      File::Spec::Functions 0
+      File::Temp 0
+      IO::File 0
+      IO::Handle 0
+      List::Util 0
+      Scalar::Util 0
+      Test::More 0.62
+      strict 0
+      warnings 0
   Class-Accessor-0.34
     pathname: K/KA/KASEI/Class-Accessor-0.34.tar.gz
     provides:
@@ -434,19 +446,6 @@ DISTRIBUTIONS
       Symbol 0
       Test 0
       perl 5.006
-  Data-Faker-0.10
-    pathname: W/WS/WSHELDAHL/Data-Faker-0.10.tar.gz
-    provides:
-      Data::Faker 0.10
-      Data::Faker::Company 0.10
-      Data::Faker::DateTime 0.10
-      Data::Faker::Internet 0.10
-      Data::Faker::Name 0.10
-      Data::Faker::PhoneNumber 0.10
-      Data::Faker::StreetAddress 0.10
-    requirements:
-      ExtUtils::MakeMaker 0
-      POSIX 0
   Data-OptList-0.108
     pathname: R/RJ/RJBS/Data-OptList-0.108.tar.gz
     provides:
@@ -491,6 +490,24 @@ DISTRIBUTIONS
       Test::Exception 0.27
       Test::More 0.62
       XSLoader 0.02
+      perl 5.008001
+  Data-Validator-1.03
+    pathname: G/GF/GFUJI/Data-Validator-1.03.tar.gz
+    provides:
+      Data::Validator 1.03
+      Data::Validator::Role::AllowExtra undef
+      Data::Validator::Role::Croak undef
+      Data::Validator::Role::Method undef
+      Data::Validator::Role::NoRestricted undef
+      Data::Validator::Role::NoThrow undef
+      Data::Validator::Role::Sequenced undef
+      Data::Validator::Role::StrictSequenced undef
+    requirements:
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      ExtUtils::MakeMaker 6.59
+      Module::Build 0.38
+      Mouse 0.93
       perl 5.008001
   Devel-StackTrace-1.30
     pathname: D/DR/DROLSKY/Devel-StackTrace-1.30.tar.gz
@@ -673,14 +690,6 @@ DISTRIBUTIONS
       FCGI::ProcManager::Constrained undef
     requirements:
       ExtUtils::MakeMaker 0
-  File-Copy-Recursive-0.38
-    pathname: D/DM/DMUEY/File-Copy-Recursive-0.38.tar.gz
-    provides:
-      File::Copy::Recursive 0.38
-    requirements:
-      ExtUtils::MakeMaker 0
-      File::Copy 0
-      File::Spec 0
   File-Listing-6.04
     pathname: G/GA/GAAS/File-Listing-6.04.tar.gz
     provides:
@@ -713,17 +722,17 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.11
       File::Spec 0
       IO::Dir 0
-  File-Slurp-9999.19
-    pathname: U/UR/URI/File-Slurp-9999.19.tar.gz
+  File-Which-1.09
+    pathname: A/AD/ADAMK/File-Which-1.09.tar.gz
     provides:
-      File::Slurp 9999.19
-      FileSlurp_12 9999.13
+      File::Which 1.09
     requirements:
-      Carp 0
       Exporter 0
       ExtUtils::MakeMaker 0
-      Fcntl 0
-      POSIX 0
+      File::Spec 0.60
+      Getopt::Std 0
+      Test::More 0.80
+      Test::Script 1.05
   File-pushd-1.005
     pathname: D/DA/DAGOLDEN/File-pushd-1.005.tar.gz
     provides:
@@ -750,6 +759,18 @@ DISTRIBUTIONS
       Filesys::Notify::Simple 0.12
     requirements:
       ExtUtils::MakeMaker 6.30
+  Getopt-Compact-WithCmd-0.21
+    pathname: X/XA/XAICRON/Getopt-Compact-WithCmd-0.21.tar.gz
+    provides:
+      Getopt::Compact::WithCmd 0.21
+    requirements:
+      ExtUtils::MakeMaker 6.59
+      Getopt::Long 2.38
+      Test::More 0.96
+      Test::Output 0
+      Test::Requires 0
+      Text::Table 0
+      perl 5.008001
   Guard-1.022
     pathname: M/ML/MLEHMANN/Guard-1.022.tar.gz
     provides:
@@ -913,17 +934,6 @@ DISTRIBUTIONS
       bytes 0
       strict 0
       warnings 0
-  Harriet-0.03
-    pathname: T/TO/TOKUHIROM/Harriet-0.03.tar.gz
-    provides:
-      App::Prove::Plugin::Harriet undef
-      Harriet 0.03
-    requirements:
-      CPAN::Meta 0
-      CPAN::Meta::Prereqs 0
-      Module::Build 0.38
-      Pod::Usage 0
-      perl 5.008005
   Hash-MultiValue-0.15
     pathname: M/MI/MIYAGAWA/Hash-MultiValue-0.15.tar.gz
     provides:
@@ -977,6 +987,14 @@ DISTRIBUTIONS
       IO::String 1.08
     requirements:
       ExtUtils::MakeMaker 0
+  IPC-Run3-0.046
+    pathname: R/RJ/RJBS/IPC-Run3-0.046.tar.gz
+    provides:
+      IPC::Run3 0.046
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.31
+      Time::HiRes 0
   JSON-2.59
     pathname: M/MA/MAKAMAKA/JSON-2.59.tar.gz
     provides:
@@ -1036,14 +1054,6 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.42
       Test::More 0
       perl 5.008001
-  Kwalify-1.22
-    pathname: S/SR/SREZIC/Kwalify-1.22.tar.gz
-    provides:
-      Kwalify 1.22
-      Kwalify::Validator 1.22
-      Schema::Kwalify 1.04
-    requirements:
-      ExtUtils::MakeMaker 0
   LWP-MediaTypes-6.02
     pathname: G/GA/GAAS/LWP-MediaTypes-6.02.tar.gz
     provides:
@@ -1060,6 +1070,18 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.52
       Test::More 0.82
       perl 5.00503
+  Log-Minimal-0.16
+    pathname: K/KA/KAZEBURO/Log-Minimal-0.16.tar.gz
+    provides:
+      Log::Minimal 0.16
+    requirements:
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      Data::Dumper 0
+      ExtUtils::CBuilder 0
+      Module::Build 0.38
+      Scalar::Util 0
+      Term::ANSIColor 0
   Module-Build-Tiny-0.027
     pathname: L/LE/LEONT/Module-Build-Tiny-0.027.tar.gz
     provides:
@@ -1550,12 +1572,39 @@ DISTRIBUTIONS
       Digest::SHA1 0
       Module::Build::Tiny 0.023
       Plack 0.9910
+  Probe-Perl-0.03
+    pathname: K/KW/KWILLIAMS/Probe-Perl-0.03.tar.gz
+    provides:
+      Probe::Perl 0.03
+    requirements:
+      Config 0
+      ExtUtils::MakeMaker 6.30
+      File::Spec 0
+      strict 0
   Proc-Wait3-0.04
     pathname: C/CT/CTILMES/Proc-Wait3-0.04.tar.gz
     provides:
       Proc::Wait3 0.04
     requirements:
       ExtUtils::MakeMaker 0
+  Proclet-0.31
+    pathname: K/KA/KAZEBURO/Proclet-0.31.tar.gz
+    provides:
+      Proclet 0.31
+      Proclet::Declare undef
+    requirements:
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      Data::Validator 0
+      File::Which 1.09
+      Getopt::Compact::WithCmd 0.20
+      Log::Minimal 0.14
+      Module::Build 0.38
+      Mouse 0
+      Parallel::Prefork 0.13
+      Term::ANSIColor 0
+      YAML::XS 0.38
+      parent 0
   Router-Simple-0.14
     pathname: T/TO/TOKUHIROM/Router-Simple-0.14.tar.gz
     provides:
@@ -1843,15 +1892,6 @@ DISTRIBUTIONS
       Test::More 0
       Test::NoWarnings 0.02
       Test::Tester 0.04
-  Test-Differences-0.61
-    pathname: O/OV/OVID/Test-Differences-0.61.tar.gz
-    provides:
-      Test::Differences 0.61
-    requirements:
-      Data::Dumper 2.126
-      Module::Build 0.36
-      Test::More 0
-      Text::Diff 0.35
   Test-Exception-0.32
     pathname: A/AD/ADIE/Test-Exception-0.32.tar.gz
     provides:
@@ -1876,26 +1916,6 @@ DISTRIBUTIONS
       Try::Tiny 0.07
       strict 0
       warnings 0
-  Test-Fixture-DBIxSkinny-0.01
-    pathname: N/NE/NEKOKAK/Test-Fixture-DBIxSkinny-0.01.tar.gz
-    provides:
-      Test::Fixture::DBIxSkinny 0.01
-    requirements:
-      DBIx::Skinny 0.04
-      ExtUtils::MakeMaker 6.42
-      Kwalify 1.16
-      Params::Validate 0.89
-      Test::More 0
-      Test::Requires 0
-      YAML::Syck 1
-  Test-Flatten-0.09
-    pathname: X/XA/XAICRON/Test-Flatten-0.09.tar.gz
-    provides:
-      Test::Flatten 0.09
-    requirements:
-      ExtUtils::MakeMaker 6.36
-      Test::More 0.96
-      Test::Requires 0.06
   Test-HexString-0.03
     pathname: P/PE/PEVANS/Test-HexString-0.03.tar.gz
     provides:
@@ -1914,21 +1934,6 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.59
       Test::More 0.96
       perl 5.006001
-  Test-Name-FromLine-0.11
-    pathname: S/SA/SATOH/Test-Name-FromLine-0.11.tar.gz
-    provides:
-      Test::Name::FromLine 0.11
-    requirements:
-      CPAN::Meta 0
-      CPAN::Meta::Prereqs 0
-      ExtUtils::MakeMaker 6.36
-      File::Slurp 0
-      Filter::Util::Call 0
-      Module::Build 0.38
-      Test::Builder 0
-      Test::Differences 0
-      Test::Fatal 0
-      Test::More 0
   Test-NoWarnings-1.04
     pathname: A/AD/ADAMK/Test-NoWarnings-1.04.tar.gz
     provides:
@@ -1938,6 +1943,18 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test::Builder 0.86
       Test::More 0.47
+      Test::Tester 0.107
+      perl 5.006
+  Test-Output-1.02
+    pathname: B/BD/BDFOY/Test-Output-1.02.tar.gz
+    provides:
+      Test::Output 1.02
+    requirements:
+      Capture::Tiny 0.17
+      ExtUtils::MakeMaker 0
+      File::Temp 0.17
+      Sub::Exporter 0
+      Test::More 0
       Test::Tester 0.107
       perl 5.006
   Test-Pretty-0.27
@@ -1983,6 +2000,19 @@ DISTRIBUTIONS
       Test::Builder::Module 0
       Test::More 0.61
       perl 5.008_001
+  Test-Script-1.07
+    pathname: A/AD/ADAMK/Test-Script-1.07.tar.gz
+    provides:
+      Test::Script 1.07
+    requirements:
+      ExtUtils::MakeMaker 6.42
+      File::Spec 0.80
+      IPC::Run3 0.034
+      Probe::Perl 0.01
+      Test::Builder 0.32
+      Test::Builder::Tester 1.02
+      Test::More 0.62
+      blib 0
   Test-SharedFork-0.21
     pathname: T/TO/TOKUHIROM/Test-SharedFork-0.21.tar.gz
     provides:
@@ -2022,18 +2052,6 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::Builder 0
-  Test-mysqld-0.17
-    pathname: K/KA/KAZUHO/Test-mysqld-0.17.tar.gz
-    provides:
-      Test::mysqld 0.17
-    requirements:
-      Class::Accessor::Lite 0
-      DBD::mysql 0
-      DBI 0
-      ExtUtils::MakeMaker 6.42
-      File::Copy::Recursive 0
-      Test::SharedFork 0.06
-      perl 5.008
   Test-use-ok-0.11
     pathname: A/AU/AUDREYT/Test-use-ok-0.11.tar.gz
     provides:
@@ -2042,17 +2060,16 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 6.36
       perl 5.005
-  Text-Diff-1.41
-    pathname: O/OV/OVID/Text-Diff-1.41.tar.gz
+  Text-Aligner-0.07
+    pathname: A/AN/ANNO/Text-Aligner-0.07.tar.gz
     provides:
-      Text::Diff 1.41
-      Text::Diff::Base 1.41
-      Text::Diff::Config 1.41
-      Text::Diff::Table 1.41
+      Text::Aligner 0.07
+      Text::Aligner::Auto 0.07
+      Text::Aligner::MaxKeeper 0.07
     requirements:
-      Algorithm::Diff 1.19
-      Exporter 0
       ExtUtils::MakeMaker 0
+      Term::ANSIColor 2.01
+      Test::More 0
   Text-MicroTemplate-0.20
     pathname: K/KA/KAZUHO/Text-MicroTemplate-0.20.tar.gz
     provides:
@@ -2064,6 +2081,17 @@ DISTRIBUTIONS
       File::Temp 0
       Test::More 0
       perl 5.00800
+  Text-Table-1.127
+    pathname: S/SH/SHLOMIF/Text-Table-1.127.tar.gz
+    provides:
+      Text::Table 1.127
+    requirements:
+      List::Util 0
+      Module::Build 0.36
+      Test::More 0
+      Text::Aligner 0.05
+      strict 0
+      warnings 0
   Try-Tiny-0.18
     pathname: D/DO/DOY/Try-Tiny-0.18.tar.gz
     provides:
@@ -2172,16 +2200,15 @@ DISTRIBUTIONS
       Fcntl 0
       URI 1.10
       perl 5.008001
-  YAML-Syck-1.27
-    pathname: T/TO/TODDR/YAML-Syck-1.27.tar.gz
+  YAML-LibYAML-0.41
+    pathname: I/IN/INGY/YAML-LibYAML-0.41.tar.gz
     provides:
-      JSON::Syck 1.27
-      YAML::Dumper::Syck undef
-      YAML::Loader::Syck undef
-      YAML::Syck 1.27
+      YAML::LibYAML 0.18
+      YAML::XS 0.41
+      YAML::XS::LibYAML undef
     requirements:
       ExtUtils::MakeMaker 6.59
-      perl 5.006
+      perl 5.008001
   asa-1.03
     pathname: A/AD/ADAMK/asa-1.03.tar.gz
     provides:
