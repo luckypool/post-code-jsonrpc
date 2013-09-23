@@ -22,6 +22,8 @@ localhost:5000/jsonrpc
 
 ```json
 {
+  "jsonrpc": "2.0",
+  "id": 1,
   "result": [
     {
       "id": "39292",
@@ -34,8 +36,6 @@ localhost:5000/jsonrpc
       "prefKana": "トウキョウト",
       "city": "渋谷区"
     }
-  ],
-  "id": 1,
-  "jsonrpc": "2.0"
+  ]
 }
 ```
